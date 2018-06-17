@@ -15,6 +15,9 @@ gem 'devise'
 
 # View/Front
 gem 'coffee-rails', '~> 4.2'
+gem 'devise-bootstrap-views'
+gem 'devise-i18n'
+gem 'devise-i18n-views'
 gem 'jbuilder', '~> 2.5'
 gem 'sass-rails', '~> 5.0'
 gem 'slim-rails'
