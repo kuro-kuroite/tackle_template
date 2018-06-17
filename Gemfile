@@ -15,7 +15,9 @@ gem 'devise'
 
 # View/Front
 gem 'coffee-rails', '~> 4.2'
-gem 'devise-bootstrap-views'
+gem 'devise-bootstrap-views', 
+    :git => 'https://github.com/hisea/devise-bootstrap-views.git',
+    :branch => 'bootstrap4'
 gem 'devise-i18n'
 gem 'devise-i18n-views'
 gem 'jbuilder', '~> 2.5'

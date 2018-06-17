@@ -1,4 +1,11 @@
 GIT
+  remote: https://github.com/hisea/devise-bootstrap-views.git
+  revision: 34e2c7b5d5c22295a2cea4265c4f31deba29be18
+  branch: bootstrap4
+  specs:
+    devise-bootstrap-views (1.0.0.alpha1)
+
+GIT
   remote: https://github.com/thoughtbot/shoulda-matchers.git
   revision: 4b160bd19ecca7f97d7ac22dccd5fde9b0da5a9f
   branch: rails-5
@@ -100,7 +107,6 @@ GEM
       railties (>= 4.1.0, < 6.0)
       responders
       warden (~> 1.2.3)
-    devise-bootstrap-views (0.0.11)
     devise-i18n (1.6.2)
       devise (>= 4.4)
     devise-i18n-views (0.3.7)
@@ -336,7 +342,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   database_cleaner
   devise
-  devise-bootstrap-views
+  devise-bootstrap-views!
   devise-i18n
   devise-i18n-views
   dotenv-rails
