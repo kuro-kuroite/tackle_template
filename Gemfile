@@ -11,7 +11,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 # DB/Model
 gem 'pg', '>= 0.18', '< 2.0'
 gem 'puma', '~> 3.7'
-# gem 'devise'
+gem 'devise'
 
 # View/Front
 gem 'coffee-rails', '~> 4.2'
@@ -86,5 +86,5 @@ group :development do
   # gem 'rails-I18n', '~> 5.1'
 
   # Mailler
-  # gem 'letter_opener_web'
+  gem 'letter_opener_web'
 end
