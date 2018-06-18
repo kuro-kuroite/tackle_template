@@ -5,10 +5,10 @@ class Ability
     # Define abilities for the passed in user here. For example:
     #
     #   user ||= User.new # guest user (not logged in)
-    if user.try(:admin?)
-      can :access, :rails_admin
-      can :manage, :all
-    end
+
+    can :access, :rails_admin if user.try(:admin?)
+    can :manage, :all if user.try(:admin?)
+
     # else
     #   can :read, :all
     # end

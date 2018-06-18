@@ -93,7 +93,7 @@ group :development do
 
   # Mailler
   gem 'letter_opener_web'
-  
+
   gem 'rails_admin'
   gem 'cancancan'
 end
