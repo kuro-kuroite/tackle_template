@@ -7,4 +7,14 @@ html
     = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
   body
+    - if notice.present?
+      .alert.alert-dismissable.alert-success
+        button.close type="button" data-dismiss="alert" &times;
+        p= notice
+
+    - if alert.present?
+      .alert.alert-dismissable.alert-danger
+        button.close type="button" data-dismiss="alert" &times;
+        p= alert
+
     = yield
