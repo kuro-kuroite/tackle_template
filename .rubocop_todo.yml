@@ -20,7 +20,7 @@ Bundler/OrderedGems:
 # Configuration parameters: AllowHeredoc, AllowURI, URISchemes, IgnoreCopDirectives, IgnoredPatterns.
 # URISchemes: http, https
 Metrics/LineLength:
-  Max: 120
+  Max: 255
 
 # FIXME: rails new -> rubocop --auto-correct で消える例外規則
 # Offense count: 1
