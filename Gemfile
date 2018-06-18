@@ -89,6 +89,7 @@ group :development do
 
   # I18n
   # gem 'rails-I18n', '~> 5.1'
+  gem 'rails_admin-i18n'
 
   # Mailler
   gem 'letter_opener_web'
