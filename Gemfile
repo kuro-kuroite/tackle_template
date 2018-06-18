@@ -94,4 +94,5 @@ group :development do
   gem 'letter_opener_web'
   
   gem 'rails_admin'
+  gem 'cancancan'
 end
